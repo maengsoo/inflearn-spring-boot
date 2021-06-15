@@ -32,5 +32,10 @@ class MemoryMemberRepositoryTest {
         member2.setName("spring2");
         repository.save(member2);
 
+        Member member3 = new Member();
+        member3.setName("spring3");
+        repository.save(member3);
+
+
     }
 }
